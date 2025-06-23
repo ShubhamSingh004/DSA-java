@@ -1,3 +1,4 @@
+// package basicMath;
 import java.util.Scanner;
 
 public class countNumbers {
