@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 // Class to check whether a given number is a palindrome
-public class palindrone {
+public class palindrome {
 
     /**
      * This method takes an integer 'n' and returns its reverse.
