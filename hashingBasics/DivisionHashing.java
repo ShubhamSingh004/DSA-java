@@ -6,6 +6,7 @@ public class DivisionHashing {
     static final int TABLE_SIZE = 7;
 
     // Each bucket is a list to handle collisions (chaining)
+    @SuppressWarnings("unchecked")
     static ArrayList<Integer>[] hashTable = new ArrayList[TABLE_SIZE];
 
     // Hash function using division method
