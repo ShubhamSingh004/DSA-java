@@ -25,6 +25,9 @@ public class RemoveDuplicate { // Remove duplicates from a sorted array
      * @param arr Sorted input array
      * @return The index of the last unique element in the updated array
      */
+
+     // can use HashSet also - but space complexity = O(N)
+     
     static int removeDuplicate(int[] arr) {
         // Edge case: empty array
         if (arr.length == 0) return -1;
